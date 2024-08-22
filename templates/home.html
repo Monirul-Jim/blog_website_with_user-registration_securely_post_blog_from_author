@@ -8,8 +8,6 @@
     <input id="{{ ct.id}}" type="radio" name="category" />
     <label for="{{ ct.id}}">
       <a href="{% url 'category_wish_post' ct.slug %}">{{ ct.name }}</a>
-
-    
     </label>
   </div>
 {% endfor %}
@@ -21,11 +19,12 @@
 <div class="card-container">
   {% for dt in data %}
   <div class="card">
+    <img style="width: 150px; height: 150px;" src="{{ dt.image.url }}" alt="this is image">
     <div class="card-header">
-      <h1 class="title">Title : {{ dt.name }}</h1>
+      <h1 class="title">Title : <a href="{% url 'details_post' dt.id %}"> {{ dt.name }}</a> </h1>
     </div>
     <div class="card-content">
-      <p>{{ dt.content }}</p>
+      <p><strong>Description:</strong> {{ dt.content | truncatewords:10}}</p>
       <p><strong>Author:</strong> {{ dt.author.first_name }} {{ dt.author.last_name }}</p>
       {% comment %} <p><strong>Bio:</strong> {{ dt.author.bio }}</p>
       <p><strong>Phone:</strong> {{ dt.author.phone_no }}</p> {% endcomment %}

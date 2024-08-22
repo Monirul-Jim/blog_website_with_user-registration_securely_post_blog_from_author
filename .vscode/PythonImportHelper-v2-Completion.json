@@ -104,6 +104,70 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -368,6 +432,14 @@
         "documentation": {}
     },
     {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -416,195 +488,11 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "authenticate",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "update_session_auth_hash",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "authenticate",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "update_session_auth_hash",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login_required",
-        "importPath": "django.contrib.auth.decorators",
-        "description": "django.contrib.auth.decorators",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.decorators",
-        "documentation": {}
-    },
-    {
-        "label": "login_required",
-        "importPath": "django.contrib.auth.decorators",
-        "description": "django.contrib.auth.decorators",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.decorators",
+        "detail": "django.contrib.auth.views",
         "documentation": {}
     },
     {
@@ -616,11 +504,195 @@
         "documentation": {}
     },
     {
-        "label": "LogoutView",
-        "importPath": "django.contrib.auth.views",
-        "description": "django.contrib.auth.views",
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.views",
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "update_session_auth_hash",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "update_session_auth_hash",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
         "documentation": {}
     },
     {
@@ -646,6 +718,14 @@
         "importPath": "django.db.models.deletion",
         "description": "django.db.models.deletion",
         "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -697,6 +777,14 @@
         "documentation": {}
     },
     {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
         "label": "method_decorator",
         "importPath": "django.utils.decorators",
         "description": "django.utils.decorators",
@@ -735,6 +823,14 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
         "documentation": {}
     },
     {
@@ -804,8 +900,17 @@
         "kind": 5,
         "importPath": "author.urls",
         "description": "author.urls",
-        "peekOfCode": "urlpatterns = [\n    path('register/', views.register, name='register'),\n    path('login/', views.user_login, name='user_login'),\n    path('logout/', views.user_logout, name='user_logout'),\n    path('profile/', views.profile, name='profile'),\n    path('profile/edit', views.edit_profile, name='edit_profile'),\n    path('edit/pass-change/', views.pass_change, name='pass_change'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('register/', views.register, name='register'),\n    path('login/', views.UserLoginView.as_view(), name='user_login'),\n    # path('login/', views.user_login, name='user_login'),\n    path('logout/', views.user_logout, name='user_logout'),\n    path('profile/', views.profile, name='profile'),\n    path('profile/edit', views.edit_profile, name='edit_profile'),\n    path('edit/pass-change/', views.pass_change, name='pass_change'),\n]",
         "detail": "author.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginView",
+        "kind": 6,
+        "importPath": "author.views",
+        "description": "author.views",
+        "peekOfCode": "class UserLoginView(LoginView):\n    template_name = 'author/author.html'\n    def get_success_url(self):\n        return reverse_lazy('profile')\n    def form_valid(self, form):\n        messages.success(self.request, 'User Login Successfully')\n        return super().form_valid(form)\n    def form_invalid(self, form):\n        messages.success(self.request, 'Login Information is Incorrect')\n        return super().form_invalid(form)",
+        "detail": "author.views",
         "documentation": {}
     },
     {
@@ -813,16 +918,7 @@
         "kind": 2,
         "importPath": "author.views",
         "description": "author.views",
-        "peekOfCode": "def register(request):\n    if request.method == 'POST':\n        register_form = RegistrationForm(request.POST)\n        if register_form.is_valid():\n            messages.success(request, 'Account Created Successfully')\n            register_form.save()\n    else:\n        register_form = RegistrationForm()\n    return render(request, 'author/author.html', {'forms': register_form, 'type': 'Register'})\ndef user_login(request):",
-        "detail": "author.views",
-        "documentation": {}
-    },
-    {
-        "label": "user_login",
-        "kind": 2,
-        "importPath": "author.views",
-        "description": "author.views",
-        "peekOfCode": "def user_login(request):\n    if request.method == 'POST':\n        form = AuthenticationForm(request, request.POST)\n        if form.is_valid():\n            name = form.cleaned_data['username']\n            user_pass = form.cleaned_data['password']\n            user = authenticate(username=name, password=user_pass)\n            if user is not None:\n                login(request, user)\n                messages.success(request, 'Account Login Successfully')",
+        "peekOfCode": "def register(request):\n    if request.method == 'POST':\n        register_form = RegistrationForm(request.POST)\n        if register_form.is_valid():\n            messages.success(request, 'Account Created Successfully')\n            register_form.save()\n    else:\n        register_form = RegistrationForm()\n    return render(request, 'author/author.html', {'forms': register_form, 'type': 'Register'})\n# def user_login(request):",
         "detail": "author.views",
         "documentation": {}
     },
@@ -953,6 +1049,42 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0003_post_image",
+        "description": "posts.migrations.0003_post_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('posts', '0002_alter_post_author'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='post',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='media/'),\n        ),",
+        "detail": "posts.migrations.0003_post_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0004_alter_post_image",
+        "description": "posts.migrations.0004_alter_post_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('posts', '0003_post_image'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='post/media/uploads/'),\n        ),",
+        "detail": "posts.migrations.0004_alter_post_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0005_alter_post_image",
+        "description": "posts.migrations.0005_alter_post_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('posts', '0004_alter_post_image'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='posts/media/uploads/'),\n        ),",
+        "detail": "posts.migrations.0005_alter_post_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0006_alter_post_image",
+        "description": "posts.migrations.0006_alter_post_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('posts', '0005_alter_post_image'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='post',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='uploads/'),\n        ),",
+        "detail": "posts.migrations.0006_alter_post_image",
+        "documentation": {}
+    },
+    {
         "label": "PostsConfig",
         "kind": 6,
         "importPath": "posts.apps",
@@ -975,7 +1107,7 @@
         "kind": 6,
         "importPath": "posts.models",
         "description": "posts.models",
-        "peekOfCode": "class Post(models.Model):\n    name = models.CharField(max_length=50)\n    content = models.TextField()\n    category = models.ManyToManyField(Category)\n    # models.cascade is use for  when a author delete his profile then also delete all post\n    author = models.ForeignKey(User, on_delete=models.CASCADE)\n    def __str__(self):\n        return self.name",
+        "peekOfCode": "class Post(models.Model):\n    name = models.CharField(max_length=50)\n    content = models.TextField()\n    category = models.ManyToManyField(Category)\n    # models.cascade is use for  when a author delete his profile then also delete all post\n    author = models.ForeignKey(User, on_delete=models.CASCADE)\n    image = models.ImageField(\n        upload_to='uploads/', blank=True, null=True)\n    def __str__(self):\n        return self.name",
         "detail": "posts.models",
         "documentation": {}
     },
@@ -984,7 +1116,7 @@
         "kind": 5,
         "importPath": "posts.urls",
         "description": "posts.urls",
-        "peekOfCode": "urlpatterns = [\n    path('add/', views.AddPostCreateViews.as_view(), name='add_post'),\n    # path('add/', views.add_post, name='add_post'),\n    # path('edit/<int:id>', views.edit_post, name='edit_post'),\n    path('edit/<int:id>/', views.EditPostView.as_view(), name='edit_post'),\n    # path('delete/<int:id>', views.delete_post, name='delete_post'),\n    path('delete/<int:id>/', views.DeletePostView.as_view(), name='delete_post'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('add/', views.AddPostCreateViews.as_view(), name='add_post'),\n    # path('add/', views.add_post, name='add_post'),\n    # path('edit/<int:id>', views.edit_post, name='edit_post'),\n    path('edit/<int:id>/', views.EditPostView.as_view(), name='edit_post'),\n    # path('delete/<int:id>', views.delete_post, name='delete_post'),\n    path('delete/<int:id>/', views.DeletePostView.as_view(), name='delete_post'),\n    path('details/<int:id>/', views.DetailsPostView.as_view(), name='details_post'),\n]",
         "detail": "posts.urls",
         "documentation": {}
     },
@@ -1011,7 +1143,16 @@
         "kind": 6,
         "importPath": "posts.views",
         "description": "posts.views",
-        "peekOfCode": "class DeletePostView(DeleteView):\n    model = Post\n    template_name = 'posts/delete_post.html'\n    success_url = reverse_lazy('profile')\n    pk_url_kwarg = 'id'",
+        "peekOfCode": "class DeletePostView(DeleteView):\n    model = Post\n    template_name = 'posts/delete_post.html'\n    success_url = reverse_lazy('profile')\n    pk_url_kwarg = 'id'\nclass DetailsPostView(DetailView):\n    model = Post\n    pk_url_kwarg = 'id'\n    template_name = 'posts/post_details.html'",
+        "detail": "posts.views",
+        "documentation": {}
+    },
+    {
+        "label": "DetailsPostView",
+        "kind": 6,
+        "importPath": "posts.views",
+        "description": "posts.views",
+        "peekOfCode": "class DetailsPostView(DetailView):\n    model = Post\n    pk_url_kwarg = 'id'\n    template_name = 'posts/post_details.html'",
         "detail": "posts.views",
         "documentation": {}
     },
@@ -1236,7 +1377,7 @@
         "kind": 5,
         "importPath": "simple_blog_website.settings",
         "description": "simple_blog_website.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\n# Default primary key field type",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\nMEDIA_URL = '/media/'",
         "detail": "simple_blog_website.settings",
         "documentation": {}
     },
@@ -1245,7 +1386,7 @@
         "kind": 5,
         "importPath": "simple_blog_website.settings",
         "description": "simple_blog_website.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
         "detail": "simple_blog_website.settings",
         "documentation": {}
     },
@@ -1254,7 +1395,7 @@
         "kind": 5,
         "importPath": "simple_blog_website.settings",
         "description": "simple_blog_website.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type",
         "detail": "simple_blog_website.settings",
         "documentation": {}
     },
@@ -1263,7 +1404,7 @@
         "kind": 5,
         "importPath": "simple_blog_website.settings",
         "description": "simple_blog_website.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "simple_blog_website.settings",
         "documentation": {}
     },
@@ -1272,7 +1413,25 @@
         "kind": 5,
         "importPath": "simple_blog_website.settings",
         "description": "simple_blog_website.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR/'static'\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "simple_blog_website.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "simple_blog_website.settings",
+        "description": "simple_blog_website.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "simple_blog_website.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "simple_blog_website.settings",
+        "description": "simple_blog_website.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "simple_blog_website.settings",
         "documentation": {}
     },
@@ -1290,7 +1449,7 @@
         "kind": 5,
         "importPath": "simple_blog_website.urls",
         "description": "simple_blog_website.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', views.home, name='home'),\n    path('category/<slug:category_slug>/',\n         views.home, name='category_wish_post'),\n    path('author/', include('author.urls')),\n    path('post/', include('posts.urls')),\n    path('category/', include('categories.urls')),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', views.home, name='home'),\n    path('category/<slug:category_slug>/',\n         views.home, name='category_wish_post'),\n    path('author/', include('author.urls')),\n    path('post/', include('posts.urls')),\n    path('category/', include('categories.urls')),\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "simple_blog_website.urls",
         "documentation": {}
     },

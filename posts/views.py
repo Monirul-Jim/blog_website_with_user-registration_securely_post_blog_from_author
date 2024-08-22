@@ -4,8 +4,9 @@ from django.http import HttpResponse
 from . import forms
 from . models import Post
 from django.contrib.auth.decorators import login_required
-from django.views.generic import CreateView, UpdateView, DeleteView
+from django.views.generic import CreateView, UpdateView, DeleteView, DetailView
 from django.utils.decorators import method_decorator
+
 # Create your views here.
 
 # function based views
@@ -69,3 +70,9 @@ class DeletePostView(DeleteView):
     template_name = 'posts/delete_post.html'
     success_url = reverse_lazy('profile')
     pk_url_kwarg = 'id'
+
+
+class DetailsPostView(DetailView):
+    model = Post
+    pk_url_kwarg = 'id'
+    template_name = 'posts/post_details.html'

@@ -10,6 +10,8 @@ class Post(models.Model):
     category = models.ManyToManyField(Category)
     # models.cascade is use for  when a author delete his profile then also delete all post
     author = models.ForeignKey(User, on_delete=models.CASCADE)
+    image = models.ImageField(
+        upload_to='uploads/', blank=True, null=True)
 
     def __str__(self):
         return self.name

@@ -3,7 +3,7 @@
 <div class="form-container">
   <h1>{{ type }} Form</h1>
   <form method="POST">
-    {% csrf_token %} {{ forms.as_p }}
+    {% csrf_token %} {{ form.as_p }}
     <button type="submit" class="submit-button">Add Author</button>
   </form>
   <a href="{% url 'user_login' %}"> Dont have account please Login </a>

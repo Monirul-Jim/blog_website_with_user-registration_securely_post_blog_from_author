@@ -34,7 +34,7 @@
       <p><strong>Phone:</strong> {{ dt.author.phone_no }}</p> {% endcomment %}
         <strong>Category:</strong>
         {% for categories in dt.category.all %}
-        <span class="category">{{ categories.name }}</span>
+        <span class="category" style="margin: 5px;">{{ categories.name }}</span>
         {% endfor %}
       </p>
     </div>

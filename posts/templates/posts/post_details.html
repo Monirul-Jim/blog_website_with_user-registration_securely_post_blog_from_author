@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block content %}
+<h1>hello this is post details page</h1>
+<div class="card-container">
+    <div class="card">
+        <img style="width: 800px; height: 600px;" src="{{ post.image.url }}" alt="this is image">
+        <div class="card-header">
+          <h1 class="title">Title : {{ post.name }} </h1>
+        </div>
+        <div class="card-content">
+          <p><strong>Description:</strong> {{ post.content }}</p>
+          <p><strong>Author:</strong> {{ post.author.first_name }} {{ post.author.last_name }}</p>
+          {% comment %} <p><strong>Bio:</strong> {{ dt.author.bio }}</p>
+          <p><strong>Phone:</strong> {{ dt.author.phone_no }}</p> {% endcomment %}
+            <strong>Category:</strong>
+            {% for categories in post.category.all %}
+            <span class="category" style="margin: 5px; border-radius: 5px;">{{ categories.name }}</span>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+</div>
+
+{% endblock %}
