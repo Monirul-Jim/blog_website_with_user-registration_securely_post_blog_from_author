@@ -384,6 +384,14 @@
         "documentation": {}
     },
     {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -600,6 +608,22 @@
         "documentation": {}
     },
     {
+        "label": "LoginView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
         "label": "Post",
         "importPath": "posts.models",
         "description": "posts.models",
@@ -646,6 +670,38 @@
         "description": "categories.models",
         "isExtraImport": true,
         "detail": "categories.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "method_decorator",
+        "importPath": "django.utils.decorators",
+        "description": "django.utils.decorators",
+        "isExtraImport": true,
+        "detail": "django.utils.decorators",
         "documentation": {}
     },
     {
@@ -928,34 +984,34 @@
         "kind": 5,
         "importPath": "posts.urls",
         "description": "posts.urls",
-        "peekOfCode": "urlpatterns = [\n    path('add/', views.add_post, name='add_post'),\n    path('edit/<int:id>', views.edit_post, name='edit_post'),\n    path('delete/<int:id>', views.delete_post, name='delete_post'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('add/', views.AddPostCreateViews.as_view(), name='add_post'),\n    # path('add/', views.add_post, name='add_post'),\n    # path('edit/<int:id>', views.edit_post, name='edit_post'),\n    path('edit/<int:id>/', views.EditPostView.as_view(), name='edit_post'),\n    # path('delete/<int:id>', views.delete_post, name='delete_post'),\n    path('delete/<int:id>/', views.DeletePostView.as_view(), name='delete_post'),\n]",
         "detail": "posts.urls",
         "documentation": {}
     },
     {
-        "label": "add_post",
-        "kind": 2,
+        "label": "AddPostCreateViews",
+        "kind": 6,
         "importPath": "posts.views",
         "description": "posts.views",
-        "peekOfCode": "def add_post(request):\n    if request.method == 'POST':\n        post = forms.PostForm(request.POST)\n        if post.is_valid():\n            post.instance.author = request.user\n            post.save()\n            return redirect('add_post')\n    else:\n        post = forms.PostForm()\n    return render(request, 'posts/post.html', {'post': post})",
+        "peekOfCode": "class AddPostCreateViews(CreateView):\n    model = Post\n    form_class = forms.PostForm\n    template_name = 'posts/post.html'\n    success_url = reverse_lazy('add_post')\n    def form_valid(self, form):\n        form.instance.author = self.request.user\n        return super().form_valid(form)\n# @login_required\n# def edit_post(request, id):",
         "detail": "posts.views",
         "documentation": {}
     },
     {
-        "label": "edit_post",
-        "kind": 2,
+        "label": "EditPostView",
+        "kind": 6,
         "importPath": "posts.views",
         "description": "posts.views",
-        "peekOfCode": "def edit_post(request, id):\n    post_forms = Post.objects.get(pk=id)\n    post = forms.PostForm(instance=post_forms)\n    if request.method == 'POST':\n        post = forms.PostForm(request.POST, instance=post_forms)\n        if post.is_valid():\n            post.instance.author = request.user\n            post.save()\n            return redirect('profile')\n    return render(request, 'posts/post.html', {'post': post})",
+        "peekOfCode": "class EditPostView(UpdateView):\n    model = Post\n    form_class = forms.PostForm\n    template_name = 'posts/post.html'\n    pk_url_kwarg = 'id'\n    success_url = reverse_lazy('profile')\n# @login_required\n# def delete_post(request, id):\n#     post_forms = Post.objects.get(pk=id)\n#     post_forms.delete()",
         "detail": "posts.views",
         "documentation": {}
     },
     {
-        "label": "delete_post",
-        "kind": 2,
+        "label": "DeletePostView",
+        "kind": 6,
         "importPath": "posts.views",
         "description": "posts.views",
-        "peekOfCode": "def delete_post(request, id):\n    post_forms = Post.objects.get(pk=id)\n    post_forms.delete()\n    return redirect('home')",
+        "peekOfCode": "class DeletePostView(DeleteView):\n    model = Post\n    template_name = 'posts/delete_post.html'\n    success_url = reverse_lazy('profile')\n    pk_url_kwarg = 'id'",
         "detail": "posts.views",
         "documentation": {}
     },

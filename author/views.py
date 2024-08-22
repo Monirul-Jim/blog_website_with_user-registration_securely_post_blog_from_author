@@ -3,9 +3,10 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from . forms import RegistrationForm, ChangeUserFormData
 from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
-from django.contrib.auth import authenticate, login, update_session_auth_hash,logout
+from django.contrib.auth import authenticate, login, update_session_auth_hash, logout
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import LoginView, LogoutView
 from posts.models import Post
 # Create your views here.
 
@@ -72,6 +73,8 @@ def pass_change(request):
     else:
         form = PasswordChangeForm(user=request.user)
     return render(request, 'author/passchange.html', {'forms': form, })
+
+
 def user_logout(request):
     logout(request)
     return redirect('user_login')
