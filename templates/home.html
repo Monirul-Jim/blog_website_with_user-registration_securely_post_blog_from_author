@@ -1,0 +1,43 @@
+{% extends 'base.html' %} {% load static %} {% block styles %}
+<link rel="stylesheet" href="{% static 'css/home/card.css' %}" />
+{% endblock %} {% block content %}
+<h3>This is home page</h3>
+{% if categories %}
+{% for ct in categories %}
+  <div>
+    <input id="{{ ct.id}}" type="radio" name="category" />
+    <label for="{{ ct.id}}">
+      <a href="{% url 'category_wish_post' ct.slug %}">{{ ct.name }}</a>
+
+    
+    </label>
+  </div>
+{% endfor %}
+{% else %}
+<p>there is no categories, please wait for admin add category</p>
+{% endif %}
+<h2>{{ data | length }} Result Found</h2>
+{% if data %}
+<div class="card-container">
+  {% for dt in data %}
+  <div class="card">
+    <div class="card-header">
+      <h1 class="title">Title : {{ dt.name }}</h1>
+    </div>
+    <div class="card-content">
+      <p>{{ dt.content }}</p>
+      <p><strong>Author:</strong> {{ dt.author.first_name }} {{ dt.author.last_name }}</p>
+      {% comment %} <p><strong>Bio:</strong> {{ dt.author.bio }}</p>
+      <p><strong>Phone:</strong> {{ dt.author.phone_no }}</p> {% endcomment %}
+        <strong>Category:</strong>
+        {% for categories in dt.category.all %}
+        <span class="category" style="margin: 5px; border-radius: 5px;">{{ categories.name }}</span>
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<h4>There is no data</h4>
+{% endif %} {% endblock %}

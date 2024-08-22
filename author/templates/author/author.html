@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+<h1>hello this is add author page</h1>
+<div class="form-container">
+  <h1>{{ type }} Form</h1>
+  <form method="POST">
+    {% csrf_token %} {{ forms.as_p }}
+    <button type="submit" class="submit-button">Add Author</button>
+  </form>
+  <a href="{% url 'user_login' %}"> Dont have account please Login </a>
+</div>
+
+{% endblock %}

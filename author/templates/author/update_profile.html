@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block content %}
+<h1>This is Updated Profile</h1>
+<div class="form-container">
+  <a href="{% url 'pass_change' %}">
+    <button
+      style="
+        background-color: blue;
+        margin: 10px;
+        padding: 5px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      "
+    >
+      Change Password
+    </button>
+  </a>
+  <h1>Profile Form</h1>
+  <form method="POST">
+    {% csrf_token %} {{ forms.as_p }}
+    <button type="submit" class="submit-button">Add Profile</button>
+  </form>
+</div>
+
+{% endblock %}

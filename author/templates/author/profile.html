@@ -1,0 +1,57 @@
+{% extends 'base.html' %} {% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/home/card.css' %}">
+<h1>Welcome Your Profile</h1>
+<div>
+  <a href="{% url 'edit_profile' %}">
+    <button
+      style="
+        background-color: crimson;
+        margin: 10px;
+        padding: 5px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      "
+    >
+      Edit Your Profile
+    </button>
+  </a>
+
+
+
+  {% if data %}
+<div class="card-container">
+  {% for dt in data %}
+  <div class="card">
+    <div class="card-header">
+      <h1 class="title">Title : {{ dt.name }}</h1>
+    </div>
+    <div class="card-content">
+      <p>{{ dt.content }}</p>
+      <p><strong>Author:</strong> {{ dt.author.first_name }} {{ dt.author.last_name }}</p>
+      {% comment %} <p><strong>Bio:</strong> {{ dt.author.bio }}</p>
+      <p><strong>Phone:</strong> {{ dt.author.phone_no }}</p> {% endcomment %}
+        <strong>Category:</strong>
+        {% for categories in dt.category.all %}
+        <span class="category">{{ categories.name }}</span>
+        {% endfor %}
+      </p>
+    </div>
+    <div class="card-actions">
+      <a href="{% url 'delete_post' dt.id %}">
+        <button class="btn delete-btn">Delete</button>
+      </a>
+      <a href="{% url 'edit_post' dt.id %}">
+        <button class="btn edit-btn">Edit</button>
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<h4>There is no data</h4>
+{% endif %}
+</div>
+
+{% endblock %}
